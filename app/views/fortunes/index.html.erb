@@ -1,0 +1,29 @@
+<h1><%= image_tag("fortunes.jpg") %></h1>
+
+<div id="pagination">
+<%= paginate @fortunes %>
+</div>
+
+<div id="newfortune">
+<%= link_to 'New Fortune', new_fortune_path %>
+</div>
+
+
+<% @fortunes.each do |fortune| %>
+<div id="fortunebox">  
+
+  <div id="quote">
+  <b>Quotation:</b><br/> "<%= fortune.qoutation %>"
+  </div>
+  <div id="source">
+  <b>Source:</b> <%= fortune.source %>
+  </div>
+  <div id="crud">
+    <%= link_to 'Show', fortune %>
+    <%= link_to 'Edit', edit_fortune_path(fortune) %>
+    <%= link_to 'Destroy', fortune, confirm: 'Are you sure?', method: :delete %>  
+  </div>
+
+</div>
+
+<% end %>
