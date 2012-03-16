@@ -35,13 +35,14 @@ html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-
 
 body { margin: 0; font-size: 1em; line-height: 1.4; }
 
-body, button, input, select, textarea { font-family: sans-serif; color: #222; }
+body, button, input,  select, textarea { font-family: sans-serif; color: gray; }
 
-body { background-image:url('tlo.jpg'); }
+
+button { background-image:url('tlo.jpg'); }
 
 #container { width:800px; height:650px; margin-left:auto; margin-right:auto; background-image:url('chmury.jpg'); border: white 2px solid; margin-top:0px; padding:10px;}
 
-#fortunebox { width:600px; height:auto; background-image:url('cien.png'); margin-top:10px; border: 4px solid gray; padding:10px;}
+#fortunebox { width:600px; height:auto; background-image:url('cien.png'); margin-top:10px; border: 2px solid white; padding:10px;}
   #fortunebox 
 #quote { background:;}
 #source { background:;}
