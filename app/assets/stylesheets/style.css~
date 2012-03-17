@@ -35,7 +35,7 @@ html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-
 
 body { margin: 0; font-size: 1em; line-height: 1.4; }
 
-body, button, input,  select, textarea { font-family: sans-serif; color: gray; }
+body, button, input,  select, textarea { font-family: sans-serif; color: silver; }
 
 
 button { background-image:url('tlo.jpg'); }
